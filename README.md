@@ -49,7 +49,7 @@ There are several libraries that needs to be inserted if you want to run the sys
 6. Sample Output: 
 A sample output including the whole UI is shown below where we reveal the pattern of change in Soil Moisture for 3 years (2013-2015) over Western Canada (A1). The Great Bear Lake marked in 'red' rectangle and The Great Slave Lake marked in 'black' recetangle in (A1) are zoomed to show patterns more clearly in (A2) and (A3), respectively. 
 
-![](SMOIS)<!-- -->
+![](SMOIS.JPG)<!-- -->
    
    
 
