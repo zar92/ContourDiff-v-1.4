@@ -3,7 +3,7 @@
 Changes in geological processes that span over the years may often go unnoticed due to their inherent noise and variability. Natural phenomena such as riverbank erosion, and climate change in general, is invisible to humans unless appropriate measures are taken to analyze the underlying data. Visualization helps geological
 sciences to generate scientific insights into such long-term geological events. Commonly used approaches such as side-by-side contour plots and spaghetti plots do not provide a clear idea about the historical spatial trends.
 
-To overcome this challenge, we propose an image-gradient based approach called ContourDiff. ContourDiff overlays gradient vector over contour plots to analyze the trends of change across spatial regions and temporal domain. Our approach first aggregates for each location, its value differences from the neighboring points over the temporal domain, and then creates a vector field representing the prominent changes. Finally, it overlays the vectors (dierential trends) along the contour paths, revealing the differential trends that the contour lines (isolines) experienced over time.
+To overcome this challenge, we propose an image-gradient based approach called ContourDiff. ContourDiff overlays gradient vector over contour plots to analyze the trends of change across spatial regions and temporal domain. Our approach first aggregates for each location, its value differences from the neighboring points over the temporal domain, and then creates a vector field representing the prominent changes. Finally, it overlays the vectors (differential trends) along the contour paths, revealing the differential trends that the contour lines (isolines) experienced over time.
 
 We designed an interface, where users can interact with the generated visualization to reveal changes and trends in geospatial data. We evaluated our system using real-life datasets, consisting of millions of data points, where the visualizations were generated in less than a minute in a single-threaded execution. We show the potential of the system in detecting subtle changes from almost identical images, describe implementation challenges, speed-up techniques, and scope for improvements. Our experimental results reveal that ContourDiff can reliably visualize the differential trends, and provide a new way to explore the change pattern in spatiotemporal data. The expert evaluation of our system using real-life WRF (Weather Research and Forecasting) model output reveals the potential of our technique to generate useful insights on the spatiotemporal trends of geospatial variables.
 
@@ -49,7 +49,7 @@ There are several libraries that needs to be inserted if you want to run the sys
 6. Sample Output: 
 A sample output including the whole UI is shown below where we reveal the pattern of change in Soil Moisture for 3 years (2013-2015) over Western Canada (A1). The Great Bear Lake marked in 'red' rectangle and The Great Slave Lake marked in 'black' recetangle in (A1) are zoomed to show patterns more clearly in (A2) and (A3), respectively. 
 
-![](SMOIS.PNG)<!-- -->
+![](SMOIS)<!-- -->
    
    
 
