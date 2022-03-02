@@ -1,4 +1,4 @@
-# ContourDiff_Thesis
+# ContourDiff
 # Abstract
 Changes in geological processes that span over the years may often go unnoticed due to their inherent noise and variability. Natural phenomena such as riverbank erosion, and climate change in general, is invisible to humans unless appropriate measures are taken to analyze the underlying data. Visualization helps geological
 sciences to generate scientific insights into such long-term geological events. Commonly used approaches such as side-by-side contour plots and spaghetti plots do not provide a clear idea about the historical spatial trends.
